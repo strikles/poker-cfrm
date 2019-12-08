@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4A26AD239D4792004C1C24 /* libpoker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4A25DF239D4791004C1C24 /* libpoker.a */; };
+		5C4A26AE239D4792004C1C24 /* action_sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A25E3239D4791004C1C24 /* action_sequence.cpp */; };
+		5C4A26BA239D4792004C1C24 /* libecalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4A2606239D4791004C1C24 /* libecalc.a */; };
+		5C4A26BB239D4792004C1C24 /* xorshift_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A260A239D4791004C1C24 /* xorshift_generator.cpp */; };
+		5C4A26BC239D4792004C1C24 /* ecalc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A260B239D4791004C1C24 /* ecalc.cpp */; };
+		5C4A26BE239D4792004C1C24 /* TimeHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A261E239D4791004C1C24 /* TimeHelpers.cpp */; };
+		5C4A26BF239D4792004C1C24 /* SignalTranslator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A261F239D4791004C1C24 /* SignalTranslator.cpp */; };
+		5C4A26C0239D4792004C1C24 /* Checks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2623239D4791004C1C24 /* Checks.cpp */; };
+		5C4A26C1239D4792004C1C24 /* TestReporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2624239D4791004C1C24 /* TestReporter.cpp */; };
+		5C4A26C2239D4792004C1C24 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2625239D4791004C1C24 /* Test.cpp */; };
+		5C4A26C3239D4792004C1C24 /* TestRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2626239D4791004C1C24 /* TestRunner.cpp */; };
+		5C4A26C4239D4792004C1C24 /* TestTestSuite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2629239D4791004C1C24 /* TestTestSuite.cpp */; };
+		5C4A26C5239D4792004C1C24 /* TestTestList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A262A239D4791004C1C24 /* TestTestList.cpp */; };
+		5C4A26C6239D4792004C1C24 /* TestAssertHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A262B239D4791004C1C24 /* TestAssertHandler.cpp */; };
+		5C4A26C7239D4792004C1C24 /* TestTimeConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A262D239D4791004C1C24 /* TestTimeConstraint.cpp */; };
+		5C4A26C8239D4792004C1C24 /* TestChecks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A262E239D4791004C1C24 /* TestChecks.cpp */; };
+		5C4A26C9239D4792004C1C24 /* TestTestMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A262F239D4791004C1C24 /* TestTestMacros.cpp */; };
+		5C4A26CA239D4792004C1C24 /* TestCheckMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2630239D4791004C1C24 /* TestCheckMacros.cpp */; };
+		5C4A26CB239D4792004C1C24 /* TestUnitTest++.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2631239D4791004C1C24 /* TestUnitTest++.cpp */; };
+		5C4A26CC239D4792004C1C24 /* TestDeferredTestReporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2632239D4791004C1C24 /* TestDeferredTestReporter.cpp */; };
+		5C4A26CD239D4792004C1C24 /* TestMemoryOutStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2633239D4791004C1C24 /* TestMemoryOutStream.cpp */; };
+		5C4A26CE239D4792004C1C24 /* TestTestResults.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2634239D4791004C1C24 /* TestTestResults.cpp */; };
+		5C4A26CF239D4792004C1C24 /* TestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2635239D4791004C1C24 /* TestTest.cpp */; };
+		5C4A26D0239D4792004C1C24 /* TestXmlTestReporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2636239D4791004C1C24 /* TestXmlTestReporter.cpp */; };
+		5C4A26D1239D4792004C1C24 /* TestTimeConstraintMacro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2637239D4791004C1C24 /* TestTimeConstraintMacro.cpp */; };
+		5C4A26D3239D4792004C1C24 /* TestTestRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A263A239D4791004C1C24 /* TestTestRunner.cpp */; };
+		5C4A26D4239D4792004C1C24 /* TestCurrentTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A263B239D4791004C1C24 /* TestCurrentTest.cpp */; };
+		5C4A26D5239D4792004C1C24 /* XmlTestReporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A263E239D4791004C1C24 /* XmlTestReporter.cpp */; };
+		5C4A26D6239D4792004C1C24 /* TestList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A263F239D4791004C1C24 /* TestList.cpp */; };
+		5C4A26D7239D4792004C1C24 /* DeferredTestReporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2645239D4791004C1C24 /* DeferredTestReporter.cpp */; };
+		5C4A26D8239D4792004C1C24 /* DeferredTestResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2647239D4791004C1C24 /* DeferredTestResult.cpp */; };
+		5C4A26D9239D4792004C1C24 /* CurrentTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2649239D4791004C1C24 /* CurrentTest.cpp */; };
+		5C4A26DA239D4792004C1C24 /* TestDetails.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A264B239D4791004C1C24 /* TestDetails.cpp */; };
+		5C4A26DB239D4792004C1C24 /* ReportAssert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A264C239D4791004C1C24 /* ReportAssert.cpp */; };
+		5C4A26DC239D4792004C1C24 /* TimeConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A264F239D4791004C1C24 /* TimeConstraint.cpp */; };
+		5C4A26DD239D4792004C1C24 /* TestResults.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2651239D4791004C1C24 /* TestResults.cpp */; };
+		5C4A26DF239D4792004C1C24 /* MemoryOutStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2656239D4791004C1C24 /* MemoryOutStream.cpp */; };
+		5C4A26E0239D4792004C1C24 /* AssertException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2657239D4791004C1C24 /* AssertException.cpp */; };
+		5C4A26E1239D4792004C1C24 /* TestReporterStdout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A265A239D4791004C1C24 /* TestReporterStdout.cpp */; };
+		5C4A26E2239D4792004C1C24 /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A266C239D4791004C1C24 /* game.c */; };
+		5C4A26E4239D4792004C1C24 /* hand_index.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A266E239D4791004C1C24 /* hand_index.c */; };
+		5C4A26E6239D4792004C1C24 /* cfrm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2670239D4791004C1C24 /* cfrm.cpp */; };
+		5C4A26E7239D4792004C1C24 /* player-main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2671239D4791004C1C24 /* player-main.cpp */; };
+		5C4A26E8239D4792004C1C24 /* deck.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2672239D4791004C1C24 /* deck.c */; };
+		5C4A26EA239D4792004C1C24 /* abstract_game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2674239D4791004C1C24 /* abstract_game.cpp */; };
+		5C4A26EB239D4792004C1C24 /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2675239D4791004C1C24 /* net.c */; };
+		5C4A26EC239D4792004C1C24 /* abstraction_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2676239D4791004C1C24 /* abstraction_generator.cpp */; };
+		5C4A26ED239D4792004C1C24 /* functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2677239D4791004C1C24 /* functions.cpp */; };
+		5C4A26EF239D4792004C1C24 /* rng.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A2679239D4791004C1C24 /* rng.c */; };
+		5C4A26F3239D5EE6004C1C24 /* action_abstraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A266D239D4791004C1C24 /* action_abstraction.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C4A2597239D471D004C1C24 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C4A2599239D471D004C1C24 /* player */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = player; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4A25C0239D4791004C1C24 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5C4A25C9239D4791004C1C24 /* test_hand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_hand.cpp; sourceTree = "<group>"; };
+		5C4A25CA239D4791004C1C24 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5C4A25CB239D4791004C1C24 /* test_card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_card.cpp; sourceTree = "<group>"; };
+		5C4A25CC239D4791004C1C24 /* test_action_sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_action_sequence.cpp; sourceTree = "<group>"; };
+		5C4A25CD239D4791004C1C24 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C4A25CE239D4791004C1C24 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5C4A25D1239D4791004C1C24 /* status_type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = status_type.hpp; sourceTree = "<group>"; };
+		5C4A25D2239D4791004C1C24 /* card.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = card.hpp; sourceTree = "<group>"; };
+		5C4A25D3239D4791004C1C24 /* action.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = action.hpp; sourceTree = "<group>"; };
+		5C4A25D4239D4791004C1C24 /* action_type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = action_type.hpp; sourceTree = "<group>"; };
+		5C4A25D5239D4791004C1C24 /* suit_type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = suit_type.hpp; sourceTree = "<group>"; };
+		5C4A25D6239D4791004C1C24 /* hand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hand.hpp; sourceTree = "<group>"; };
+		5C4A25D7239D4791004C1C24 /* decimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimal.h; sourceTree = "<group>"; };
+		5C4A25D8239D4791004C1C24 /* pokerdefs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pokerdefs.hpp; sourceTree = "<group>"; };
+		5C4A25D9239D4791004C1C24 /* face_type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = face_type.hpp; sourceTree = "<group>"; };
+		5C4A25DA239D4791004C1C24 /* action_sequence.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = action_sequence.hpp; sourceTree = "<group>"; };
+		5C4A25DB239D4791004C1C24 /* phase_type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = phase_type.hpp; sourceTree = "<group>"; };
+		5C4A25DC239D4791004C1C24 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C4A25DF239D4791004C1C24 /* libpoker.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpoker.a; sourceTree = "<group>"; };
+		5C4A25E1239D4791004C1C24 /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
+		5C4A25E3239D4791004C1C24 /* action_sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = action_sequence.cpp; sourceTree = "<group>"; };
+		5C4A25ED239D4791004C1C24 /* test_ecalc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_ecalc.cpp; sourceTree = "<group>"; };
+		5C4A25F0239D4791004C1C24 /* tests */ = {isa = PBXFileReference; lastKnownFileType = file; path = tests; sourceTree = "<group>"; };
+		5C4A25F1239D4791004C1C24 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5C4A25F2239D4791004C1C24 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
+		5C4A25F3239D4791004C1C24 /* test_macros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_macros.cpp; sourceTree = "<group>"; };
+		5C4A25F4239D4791004C1C24 /* test_handranks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_handranks.cpp; sourceTree = "<group>"; };
+		5C4A25F5239D4791004C1C24 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C4A25F6239D4791004C1C24 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5C4A25F9239D4791004C1C24 /* handlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = handlist.hpp; sourceTree = "<group>"; };
+		5C4A25FA239D4791004C1C24 /* macros.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = macros.hpp; sourceTree = "<group>"; };
+		5C4A25FB239D4791004C1C24 /* single_handlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = single_handlist.hpp; sourceTree = "<group>"; };
+		5C4A25FC239D4791004C1C24 /* xorshift_generator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xorshift_generator.hpp; sourceTree = "<group>"; };
+		5C4A25FD239D4791004C1C24 /* random_handlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = random_handlist.hpp; sourceTree = "<group>"; };
+		5C4A25FE239D4791004C1C24 /* ecalc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ecalc.hpp; sourceTree = "<group>"; };
+		5C4A25FF239D4791004C1C24 /* result.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = result.hpp; sourceTree = "<group>"; };
+		5C4A2600239D4791004C1C24 /* array_handlist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array_handlist.hpp; sourceTree = "<group>"; };
+		5C4A2601239D4791004C1C24 /* handranks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = handranks.hpp; sourceTree = "<group>"; };
+		5C4A2602239D4791004C1C24 /* types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = types.hpp; sourceTree = "<group>"; };
+		5C4A2603239D4791004C1C24 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C4A2606239D4791004C1C24 /* libecalc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libecalc.a; sourceTree = "<group>"; };
+		5C4A2608239D4791004C1C24 /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
+		5C4A260A239D4791004C1C24 /* xorshift_generator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xorshift_generator.cpp; sourceTree = "<group>"; };
+		5C4A260B239D4791004C1C24 /* ecalc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ecalc.cpp; sourceTree = "<group>"; };
+		5C4A260D239D4791004C1C24 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5C4A260F239D4791004C1C24 /* UnitTest++.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "UnitTest++.html"; sourceTree = "<group>"; };
+		5C4A2610239D4791004C1C24 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5C4A2611239D4791004C1C24 /* UnitTest++.vsnet2003.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UnitTest++.vsnet2003.sln"; sourceTree = "<group>"; };
+		5C4A2612239D4791004C1C24 /* TestUnitTest++.vsnet2003.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "TestUnitTest++.vsnet2003.vcproj"; sourceTree = "<group>"; };
+		5C4A2613239D4791004C1C24 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		5C4A2614239D4791004C1C24 /* UnitTest++.vsnet2005.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UnitTest++.vsnet2005.sln"; sourceTree = "<group>"; };
+		5C4A2615239D4791004C1C24 /* UnitTest++.vsnet2005.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "UnitTest++.vsnet2005.vcproj"; sourceTree = "<group>"; };
+		5C4A2616239D4791004C1C24 /* TestUnitTest++.vsnet2005.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "TestUnitTest++.vsnet2005.vcproj"; sourceTree = "<group>"; };
+		5C4A2617239D4791004C1C24 /* UnitTest++.vsnet2003.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "UnitTest++.vsnet2003.vcproj"; sourceTree = "<group>"; };
+		5C4A2619239D4791004C1C24 /* CheckMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMacros.h; sourceTree = "<group>"; };
+		5C4A261A239D4791004C1C24 /* TestDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDetails.h; sourceTree = "<group>"; };
+		5C4A261C239D4791004C1C24 /* SignalTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalTranslator.h; sourceTree = "<group>"; };
+		5C4A261D239D4791004C1C24 /* TimeHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeHelpers.h; sourceTree = "<group>"; };
+		5C4A261E239D4791004C1C24 /* TimeHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeHelpers.cpp; sourceTree = "<group>"; };
+		5C4A261F239D4791004C1C24 /* SignalTranslator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SignalTranslator.cpp; sourceTree = "<group>"; };
+		5C4A2620239D4791004C1C24 /* TestReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestReporter.h; sourceTree = "<group>"; };
+		5C4A2621239D4791004C1C24 /* TestResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestResults.h; sourceTree = "<group>"; };
+		5C4A2622239D4791004C1C24 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		5C4A2623239D4791004C1C24 /* Checks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Checks.cpp; sourceTree = "<group>"; };
+		5C4A2624239D4791004C1C24 /* TestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestReporter.cpp; sourceTree = "<group>"; };
+		5C4A2625239D4791004C1C24 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		5C4A2626239D4791004C1C24 /* TestRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestRunner.cpp; sourceTree = "<group>"; };
+		5C4A2627239D4791004C1C24 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		5C4A2629239D4791004C1C24 /* TestTestSuite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTestSuite.cpp; sourceTree = "<group>"; };
+		5C4A262A239D4791004C1C24 /* TestTestList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTestList.cpp; sourceTree = "<group>"; };
+		5C4A262B239D4791004C1C24 /* TestAssertHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestAssertHandler.cpp; sourceTree = "<group>"; };
+		5C4A262C239D4791004C1C24 /* ScopedCurrentTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScopedCurrentTest.h; sourceTree = "<group>"; };
+		5C4A262D239D4791004C1C24 /* TestTimeConstraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTimeConstraint.cpp; sourceTree = "<group>"; };
+		5C4A262E239D4791004C1C24 /* TestChecks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestChecks.cpp; sourceTree = "<group>"; };
+		5C4A262F239D4791004C1C24 /* TestTestMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTestMacros.cpp; sourceTree = "<group>"; };
+		5C4A2630239D4791004C1C24 /* TestCheckMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCheckMacros.cpp; sourceTree = "<group>"; };
+		5C4A2631239D4791004C1C24 /* TestUnitTest++.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "TestUnitTest++.cpp"; sourceTree = "<group>"; };
+		5C4A2632239D4791004C1C24 /* TestDeferredTestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestDeferredTestReporter.cpp; sourceTree = "<group>"; };
+		5C4A2633239D4791004C1C24 /* TestMemoryOutStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestMemoryOutStream.cpp; sourceTree = "<group>"; };
+		5C4A2634239D4791004C1C24 /* TestTestResults.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTestResults.cpp; sourceTree = "<group>"; };
+		5C4A2635239D4791004C1C24 /* TestTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTest.cpp; sourceTree = "<group>"; };
+		5C4A2636239D4791004C1C24 /* TestXmlTestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestXmlTestReporter.cpp; sourceTree = "<group>"; };
+		5C4A2637239D4791004C1C24 /* TestTimeConstraintMacro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTimeConstraintMacro.cpp; sourceTree = "<group>"; };
+		5C4A2638239D4791004C1C24 /* RecordingReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingReporter.h; sourceTree = "<group>"; };
+		5C4A2639239D4791004C1C24 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		5C4A263A239D4791004C1C24 /* TestTestRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTestRunner.cpp; sourceTree = "<group>"; };
+		5C4A263B239D4791004C1C24 /* TestCurrentTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCurrentTest.cpp; sourceTree = "<group>"; };
+		5C4A263C239D4791004C1C24 /* Checks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checks.h; sourceTree = "<group>"; };
+		5C4A263D239D4791004C1C24 /* TestMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMacros.h; sourceTree = "<group>"; };
+		5C4A263E239D4791004C1C24 /* XmlTestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XmlTestReporter.cpp; sourceTree = "<group>"; };
+		5C4A263F239D4791004C1C24 /* TestList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestList.cpp; sourceTree = "<group>"; };
+		5C4A2640239D4791004C1C24 /* DeferredTestReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeferredTestReporter.h; sourceTree = "<group>"; };
+		5C4A2641239D4791004C1C24 /* TestRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRunner.h; sourceTree = "<group>"; };
+		5C4A2642239D4791004C1C24 /* TimeHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeHelpers.h; sourceTree = "<group>"; };
+		5C4A2643239D4791004C1C24 /* TimeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeConstraint.h; sourceTree = "<group>"; };
+		5C4A2644239D4791004C1C24 /* TestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSuite.h; sourceTree = "<group>"; };
+		5C4A2645239D4791004C1C24 /* DeferredTestReporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeferredTestReporter.cpp; sourceTree = "<group>"; };
+		5C4A2646239D4791004C1C24 /* ReportAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportAssert.h; sourceTree = "<group>"; };
+		5C4A2647239D4791004C1C24 /* DeferredTestResult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeferredTestResult.cpp; sourceTree = "<group>"; };
+		5C4A2648239D4791004C1C24 /* XmlTestReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlTestReporter.h; sourceTree = "<group>"; };
+		5C4A2649239D4791004C1C24 /* CurrentTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurrentTest.cpp; sourceTree = "<group>"; };
+		5C4A264A239D4791004C1C24 /* TestList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestList.h; sourceTree = "<group>"; };
+		5C4A264B239D4791004C1C24 /* TestDetails.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestDetails.cpp; sourceTree = "<group>"; };
+		5C4A264C239D4791004C1C24 /* ReportAssert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReportAssert.cpp; sourceTree = "<group>"; };
+		5C4A264D239D4791004C1C24 /* TestReporterStdout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestReporterStdout.h; sourceTree = "<group>"; };
+		5C4A264E239D4791004C1C24 /* MemoryOutStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryOutStream.h; sourceTree = "<group>"; };
+		5C4A264F239D4791004C1C24 /* TimeConstraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeConstraint.cpp; sourceTree = "<group>"; };
+		5C4A2650239D4791004C1C24 /* AssertException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssertException.h; sourceTree = "<group>"; };
+		5C4A2651239D4791004C1C24 /* TestResults.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestResults.cpp; sourceTree = "<group>"; };
+		5C4A2655239D4791004C1C24 /* CurrentTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentTest.h; sourceTree = "<group>"; };
+		5C4A2656239D4791004C1C24 /* MemoryOutStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryOutStream.cpp; sourceTree = "<group>"; };
+		5C4A2657239D4791004C1C24 /* AssertException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AssertException.cpp; sourceTree = "<group>"; };
+		5C4A2658239D4791004C1C24 /* UnitTest++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UnitTest++.h"; sourceTree = "<group>"; };
+		5C4A2659239D4791004C1C24 /* ExecuteTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExecuteTest.h; sourceTree = "<group>"; };
+		5C4A265A239D4791004C1C24 /* TestReporterStdout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestReporterStdout.cpp; sourceTree = "<group>"; };
+		5C4A265B239D4791004C1C24 /* DeferredTestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeferredTestResult.h; sourceTree = "<group>"; };
+		5C4A265D239D4791004C1C24 /* leduc.limit.2p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = leduc.limit.2p.game; sourceTree = "<group>"; };
+		5C4A265E239D4791004C1C24 /* kuhn.limit.3p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kuhn.limit.3p.game; sourceTree = "<group>"; };
+		5C4A265F239D4791004C1C24 /* kuhn.limit.2p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kuhn.limit.2p.game; sourceTree = "<group>"; };
+		5C4A2660239D4791004C1C24 /* leduc.nolimit.sample_test.2p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = leduc.nolimit.sample_test.2p.game; sourceTree = "<group>"; };
+		5C4A2661239D4791004C1C24 /* kuhn.nolimit.sampling_test.2p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kuhn.nolimit.sampling_test.2p.game; sourceTree = "<group>"; };
+		5C4A2662239D4791004C1C24 /* holdem.limit.2p.reverse_blinds.one_raise.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = holdem.limit.2p.reverse_blinds.one_raise.game; sourceTree = "<group>"; };
+		5C4A2663239D4791004C1C24 /* holdem.nolimit.3p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = holdem.nolimit.3p.game; sourceTree = "<group>"; };
+		5C4A2664239D4791004C1C24 /* kuhn.nolimit.2p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kuhn.nolimit.2p.game; sourceTree = "<group>"; };
+		5C4A2665239D4791004C1C24 /* holdem.limit.3p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = holdem.limit.3p.game; sourceTree = "<group>"; };
+		5C4A2666239D4791004C1C24 /* leduc.nolimit.big.2p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = leduc.nolimit.big.2p.game; sourceTree = "<group>"; };
+		5C4A2667239D4791004C1C24 /* holdem.limit.2p.reverse_blinds.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = holdem.limit.2p.reverse_blinds.game; sourceTree = "<group>"; };
+		5C4A2668239D4791004C1C24 /* holdem.nolimit.2p.reverse_blinds.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = holdem.nolimit.2p.reverse_blinds.game; sourceTree = "<group>"; };
+		5C4A2669239D4791004C1C24 /* leduc.nolimit.2p.game */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = leduc.nolimit.2p.game; sourceTree = "<group>"; };
+		5C4A266A239D4791004C1C24 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C4A266C239D4791004C1C24 /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = game.c; sourceTree = "<group>"; };
+		5C4A266D239D4791004C1C24 /* action_abstraction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = action_abstraction.cpp; sourceTree = "<group>"; };
+		5C4A266E239D4791004C1C24 /* hand_index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hand_index.c; sourceTree = "<group>"; };
+		5C4A266F239D4791004C1C24 /* cluster-abs-main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "cluster-abs-main.cpp"; sourceTree = "<group>"; };
+		5C4A2670239D4791004C1C24 /* cfrm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cfrm.cpp; sourceTree = "<group>"; };
+		5C4A2671239D4791004C1C24 /* player-main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "player-main.cpp"; sourceTree = "<group>"; };
+		5C4A2672239D4791004C1C24 /* deck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deck.c; sourceTree = "<group>"; };
+		5C4A2673239D4791004C1C24 /* cfrm-main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "cfrm-main.cpp"; sourceTree = "<group>"; };
+		5C4A2674239D4791004C1C24 /* abstract_game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = abstract_game.cpp; sourceTree = "<group>"; };
+		5C4A2675239D4791004C1C24 /* net.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net.c; sourceTree = "<group>"; };
+		5C4A2676239D4791004C1C24 /* abstraction_generator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = abstraction_generator.cpp; sourceTree = "<group>"; };
+		5C4A2677239D4791004C1C24 /* functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cpp; sourceTree = "<group>"; };
+		5C4A2678239D4791004C1C24 /* potential-abs-main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "potential-abs-main.cpp"; sourceTree = "<group>"; };
+		5C4A2679239D4791004C1C24 /* rng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rng.c; sourceTree = "<group>"; };
+		5C4A267B239D4791004C1C24 /* deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deck.h; sourceTree = "<group>"; };
+		5C4A267C239D4791004C1C24 /* functions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = functions.hpp; sourceTree = "<group>"; };
+		5C4A267D239D4791004C1C24 /* action_translation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = action_translation.hpp; sourceTree = "<group>"; };
+		5C4A267E239D4791004C1C24 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		5C4A267F239D4791004C1C24 /* hand_index-impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hand_index-impl.h"; sourceTree = "<group>"; };
+		5C4A2680239D4791004C1C24 /* evalHandTables */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = evalHandTables; sourceTree = "<group>"; };
+		5C4A2681239D4791004C1C24 /* emd_hat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = emd_hat.hpp; sourceTree = "<group>"; };
+		5C4A2682239D4791004C1C24 /* kmeans.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kmeans.hpp; sourceTree = "<group>"; };
+		5C4A2683239D4791004C1C24 /* rng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rng.h; sourceTree = "<group>"; };
+		5C4A2684239D4791004C1C24 /* abstract_game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = abstract_game.hpp; sourceTree = "<group>"; };
+		5C4A2685239D4791004C1C24 /* abstraction_generator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = abstraction_generator.hpp; sourceTree = "<group>"; };
+		5C4A2686239D4791004C1C24 /* ehs_lookup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ehs_lookup.hpp; sourceTree = "<group>"; };
+		5C4A2687239D4791004C1C24 /* card_abstraction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = card_abstraction.hpp; sourceTree = "<group>"; };
+		5C4A2688239D4791004C1C24 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		5C4A2689239D4791004C1C24 /* entry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = entry.hpp; sourceTree = "<group>"; };
+		5C4A268A239D4791004C1C24 /* flow_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = flow_utils.hpp; sourceTree = "<group>"; };
+		5C4A268B239D4791004C1C24 /* cfrm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cfrm.hpp; sourceTree = "<group>"; };
+		5C4A268C239D4791004C1C24 /* hand_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hand_index.h; sourceTree = "<group>"; };
+		5C4A268D239D4791004C1C24 /* EMD_DEFS.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EMD_DEFS.hpp; sourceTree = "<group>"; };
+		5C4A268E239D4791004C1C24 /* main_functions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = main_functions.hpp; sourceTree = "<group>"; };
+		5C4A268F239D4791004C1C24 /* emd_hat_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = emd_hat_impl.hpp; sourceTree = "<group>"; };
+		5C4A2690239D4791004C1C24 /* action_abstraction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = action_abstraction.hpp; sourceTree = "<group>"; };
+		5C4A2691239D4791004C1C24 /* nodes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = nodes.hpp; sourceTree = "<group>"; };
+		5C4A2692239D4791004C1C24 /* definitions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = definitions.hpp; sourceTree = "<group>"; };
+		5C4A2693239D4791004C1C24 /* min_cost_flow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = min_cost_flow.hpp; sourceTree = "<group>"; };
+		5C4A2695239D4791004C1C24 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5C4A2696239D4791004C1C24 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C4A2698239D4791004C1C24 /* gen_nolimit_holdem_agent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gen_nolimit_holdem_agent; sourceTree = "<group>"; };
+		5C4A2699239D4791004C1C24 /* gen_kuhn_strategy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gen_kuhn_strategy; sourceTree = "<group>"; };
+		5C4A26F2239D4E0F004C1C24 /* evalHandTables */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = evalHandTables; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C4A2596239D471D004C1C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4A26AD239D4792004C1C24 /* libpoker.a in Frameworks */,
+				5C4A26BA239D4792004C1C24 /* libecalc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C4A2590239D471D004C1C24 = {
+			isa = PBXGroup;
+			children = (
+				5C4A265C239D4791004C1C24 /* games */,
+				5C4A267A239D4791004C1C24 /* include */,
+				5C4A25C1239D4791004C1C24 /* lib */,
+				5C4A25C0239D4791004C1C24 /* makefile */,
+				5C4A266A239D4791004C1C24 /* README.md */,
+				5C4A2697239D4791004C1C24 /* scripts */,
+				5C4A266B239D4791004C1C24 /* src */,
+				5C4A2694239D4791004C1C24 /* test */,
+				5C4A259A239D471D004C1C24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C4A259A239D471D004C1C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A2599239D471D004C1C24 /* player */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C4A25C1239D4791004C1C24 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25C2239D4791004C1C24 /* libpoker */,
+				5C4A25E4239D4791004C1C24 /* libecalc */,
+				5C4A260C239D4791004C1C24 /* UnitTest++ */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		5C4A25C2239D4791004C1C24 /* libpoker */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25C3239D4791004C1C24 /* obj */,
+				5C4A25C8239D4791004C1C24 /* test */,
+				5C4A25CE239D4791004C1C24 /* makefile */,
+				5C4A25CF239D4791004C1C24 /* include */,
+				5C4A25DC239D4791004C1C24 /* README.md */,
+				5C4A25DD239D4791004C1C24 /* lib */,
+				5C4A25E1239D4791004C1C24 /* doxyfile */,
+				5C4A25E2239D4791004C1C24 /* src */,
+			);
+			path = libpoker;
+			sourceTree = "<group>";
+		};
+		5C4A25C3239D4791004C1C24 /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25C4239D4791004C1C24 /* release */,
+				5C4A25C7239D4791004C1C24 /* debug */,
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		5C4A25C4239D4791004C1C24 /* release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		5C4A25C7239D4791004C1C24 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		5C4A25C8239D4791004C1C24 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25C9239D4791004C1C24 /* test_hand.cpp */,
+				5C4A25CA239D4791004C1C24 /* makefile */,
+				5C4A25CB239D4791004C1C24 /* test_card.cpp */,
+				5C4A25CC239D4791004C1C24 /* test_action_sequence.cpp */,
+				5C4A25CD239D4791004C1C24 /* main.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5C4A25CF239D4791004C1C24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25D0239D4791004C1C24 /* poker */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5C4A25D0239D4791004C1C24 /* poker */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25D1239D4791004C1C24 /* status_type.hpp */,
+				5C4A25D2239D4791004C1C24 /* card.hpp */,
+				5C4A25D3239D4791004C1C24 /* action.hpp */,
+				5C4A25D4239D4791004C1C24 /* action_type.hpp */,
+				5C4A25D5239D4791004C1C24 /* suit_type.hpp */,
+				5C4A25D6239D4791004C1C24 /* hand.hpp */,
+				5C4A25D7239D4791004C1C24 /* decimal.h */,
+				5C4A25D8239D4791004C1C24 /* pokerdefs.hpp */,
+				5C4A25D9239D4791004C1C24 /* face_type.hpp */,
+				5C4A25DA239D4791004C1C24 /* action_sequence.hpp */,
+				5C4A25DB239D4791004C1C24 /* phase_type.hpp */,
+			);
+			path = poker;
+			sourceTree = "<group>";
+		};
+		5C4A25DD239D4791004C1C24 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25DE239D4791004C1C24 /* release */,
+				5C4A25E0239D4791004C1C24 /* debug */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		5C4A25DE239D4791004C1C24 /* release */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25DF239D4791004C1C24 /* libpoker.a */,
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		5C4A25E0239D4791004C1C24 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		5C4A25E2239D4791004C1C24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25E3239D4791004C1C24 /* action_sequence.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5C4A25E4239D4791004C1C24 /* libecalc */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25E5239D4791004C1C24 /* obj */,
+				5C4A25EC239D4791004C1C24 /* test */,
+				5C4A25F6239D4791004C1C24 /* makefile */,
+				5C4A25F7239D4791004C1C24 /* include */,
+				5C4A2603239D4791004C1C24 /* README.md */,
+				5C4A2604239D4791004C1C24 /* lib */,
+				5C4A2608239D4791004C1C24 /* doxyfile */,
+				5C4A2609239D4791004C1C24 /* src */,
+			);
+			path = libecalc;
+			sourceTree = "<group>";
+		};
+		5C4A25E5239D4791004C1C24 /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25E6239D4791004C1C24 /* release */,
+				5C4A25EB239D4791004C1C24 /* debug */,
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		5C4A25E6239D4791004C1C24 /* release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		5C4A25EB239D4791004C1C24 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		5C4A25EC239D4791004C1C24 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25ED239D4791004C1C24 /* test_ecalc.cpp */,
+				5C4A25EE239D4791004C1C24 /* bin */,
+				5C4A25F1239D4791004C1C24 /* makefile */,
+				5C4A25F2239D4791004C1C24 /* benchmark.cpp */,
+				5C4A25F3239D4791004C1C24 /* test_macros.cpp */,
+				5C4A25F4239D4791004C1C24 /* test_handranks.cpp */,
+				5C4A25F5239D4791004C1C24 /* main.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5C4A25EE239D4791004C1C24 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25EF239D4791004C1C24 /* release */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		5C4A25EF239D4791004C1C24 /* release */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25F0239D4791004C1C24 /* tests */,
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		5C4A25F7239D4791004C1C24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25F8239D4791004C1C24 /* ecalc */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5C4A25F8239D4791004C1C24 /* ecalc */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A25F9239D4791004C1C24 /* handlist.hpp */,
+				5C4A25FA239D4791004C1C24 /* macros.hpp */,
+				5C4A25FB239D4791004C1C24 /* single_handlist.hpp */,
+				5C4A25FC239D4791004C1C24 /* xorshift_generator.hpp */,
+				5C4A25FD239D4791004C1C24 /* random_handlist.hpp */,
+				5C4A25FE239D4791004C1C24 /* ecalc.hpp */,
+				5C4A25FF239D4791004C1C24 /* result.hpp */,
+				5C4A2600239D4791004C1C24 /* array_handlist.hpp */,
+				5C4A2601239D4791004C1C24 /* handranks.hpp */,
+				5C4A2602239D4791004C1C24 /* types.hpp */,
+			);
+			path = ecalc;
+			sourceTree = "<group>";
+		};
+		5C4A2604239D4791004C1C24 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A2605239D4791004C1C24 /* release */,
+				5C4A2607239D4791004C1C24 /* debug */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		5C4A2605239D4791004C1C24 /* release */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A2606239D4791004C1C24 /* libecalc.a */,
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		5C4A2607239D4791004C1C24 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		5C4A2609239D4791004C1C24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A260A239D4791004C1C24 /* xorshift_generator.cpp */,
+				5C4A260B239D4791004C1C24 /* ecalc.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5C4A260C239D4791004C1C24 /* UnitTest++ */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A260D239D4791004C1C24 /* Makefile */,
+				5C4A260E239D4791004C1C24 /* docs */,
+				5C4A2610239D4791004C1C24 /* README */,
+				5C4A2611239D4791004C1C24 /* UnitTest++.vsnet2003.sln */,
+				5C4A2612239D4791004C1C24 /* TestUnitTest++.vsnet2003.vcproj */,
+				5C4A2613239D4791004C1C24 /* COPYING */,
+				5C4A2614239D4791004C1C24 /* UnitTest++.vsnet2005.sln */,
+				5C4A2615239D4791004C1C24 /* UnitTest++.vsnet2005.vcproj */,
+				5C4A2616239D4791004C1C24 /* TestUnitTest++.vsnet2005.vcproj */,
+				5C4A2617239D4791004C1C24 /* UnitTest++.vsnet2003.vcproj */,
+				5C4A2618239D4791004C1C24 /* src */,
+			);
+			path = "UnitTest++";
+			sourceTree = "<group>";
+		};
+		5C4A260E239D4791004C1C24 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A260F239D4791004C1C24 /* UnitTest++.html */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		5C4A2618239D4791004C1C24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A2619239D4791004C1C24 /* CheckMacros.h */,
+				5C4A261A239D4791004C1C24 /* TestDetails.h */,
+				5C4A261B239D4791004C1C24 /* Posix */,
+				5C4A2620239D4791004C1C24 /* TestReporter.h */,
+				5C4A2621239D4791004C1C24 /* TestResults.h */,
+				5C4A2622239D4791004C1C24 /* Config.h */,
+				5C4A2623239D4791004C1C24 /* Checks.cpp */,
+				5C4A2624239D4791004C1C24 /* TestReporter.cpp */,
+				5C4A2625239D4791004C1C24 /* Test.cpp */,
+				5C4A2626239D4791004C1C24 /* TestRunner.cpp */,
+				5C4A2627239D4791004C1C24 /* Test.h */,
+				5C4A2628239D4791004C1C24 /* tests */,
+				5C4A263C239D4791004C1C24 /* Checks.h */,
+				5C4A263D239D4791004C1C24 /* TestMacros.h */,
+				5C4A263E239D4791004C1C24 /* XmlTestReporter.cpp */,
+				5C4A263F239D4791004C1C24 /* TestList.cpp */,
+				5C4A2640239D4791004C1C24 /* DeferredTestReporter.h */,
+				5C4A2641239D4791004C1C24 /* TestRunner.h */,
+				5C4A2642239D4791004C1C24 /* TimeHelpers.h */,
+				5C4A2643239D4791004C1C24 /* TimeConstraint.h */,
+				5C4A2644239D4791004C1C24 /* TestSuite.h */,
+				5C4A2645239D4791004C1C24 /* DeferredTestReporter.cpp */,
+				5C4A2646239D4791004C1C24 /* ReportAssert.h */,
+				5C4A2647239D4791004C1C24 /* DeferredTestResult.cpp */,
+				5C4A2648239D4791004C1C24 /* XmlTestReporter.h */,
+				5C4A2649239D4791004C1C24 /* CurrentTest.cpp */,
+				5C4A264A239D4791004C1C24 /* TestList.h */,
+				5C4A264B239D4791004C1C24 /* TestDetails.cpp */,
+				5C4A264C239D4791004C1C24 /* ReportAssert.cpp */,
+				5C4A264D239D4791004C1C24 /* TestReporterStdout.h */,
+				5C4A264E239D4791004C1C24 /* MemoryOutStream.h */,
+				5C4A264F239D4791004C1C24 /* TimeConstraint.cpp */,
+				5C4A2650239D4791004C1C24 /* AssertException.h */,
+				5C4A2651239D4791004C1C24 /* TestResults.cpp */,
+				5C4A2655239D4791004C1C24 /* CurrentTest.h */,
+				5C4A2656239D4791004C1C24 /* MemoryOutStream.cpp */,
+				5C4A2657239D4791004C1C24 /* AssertException.cpp */,
+				5C4A2658239D4791004C1C24 /* UnitTest++.h */,
+				5C4A2659239D4791004C1C24 /* ExecuteTest.h */,
+				5C4A265A239D4791004C1C24 /* TestReporterStdout.cpp */,
+				5C4A265B239D4791004C1C24 /* DeferredTestResult.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5C4A261B239D4791004C1C24 /* Posix */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A261C239D4791004C1C24 /* SignalTranslator.h */,
+				5C4A261D239D4791004C1C24 /* TimeHelpers.h */,
+				5C4A261E239D4791004C1C24 /* TimeHelpers.cpp */,
+				5C4A261F239D4791004C1C24 /* SignalTranslator.cpp */,
+			);
+			path = Posix;
+			sourceTree = "<group>";
+		};
+		5C4A2628239D4791004C1C24 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A2629239D4791004C1C24 /* TestTestSuite.cpp */,
+				5C4A262A239D4791004C1C24 /* TestTestList.cpp */,
+				5C4A262B239D4791004C1C24 /* TestAssertHandler.cpp */,
+				5C4A262C239D4791004C1C24 /* ScopedCurrentTest.h */,
+				5C4A262D239D4791004C1C24 /* TestTimeConstraint.cpp */,
+				5C4A262E239D4791004C1C24 /* TestChecks.cpp */,
+				5C4A262F239D4791004C1C24 /* TestTestMacros.cpp */,
+				5C4A2630239D4791004C1C24 /* TestCheckMacros.cpp */,
+				5C4A2631239D4791004C1C24 /* TestUnitTest++.cpp */,
+				5C4A2632239D4791004C1C24 /* TestDeferredTestReporter.cpp */,
+				5C4A2633239D4791004C1C24 /* TestMemoryOutStream.cpp */,
+				5C4A2634239D4791004C1C24 /* TestTestResults.cpp */,
+				5C4A2635239D4791004C1C24 /* TestTest.cpp */,
+				5C4A2636239D4791004C1C24 /* TestXmlTestReporter.cpp */,
+				5C4A2637239D4791004C1C24 /* TestTimeConstraintMacro.cpp */,
+				5C4A2638239D4791004C1C24 /* RecordingReporter.h */,
+				5C4A2639239D4791004C1C24 /* Main.cpp */,
+				5C4A263A239D4791004C1C24 /* TestTestRunner.cpp */,
+				5C4A263B239D4791004C1C24 /* TestCurrentTest.cpp */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		5C4A265C239D4791004C1C24 /* games */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A265D239D4791004C1C24 /* leduc.limit.2p.game */,
+				5C4A265E239D4791004C1C24 /* kuhn.limit.3p.game */,
+				5C4A265F239D4791004C1C24 /* kuhn.limit.2p.game */,
+				5C4A2660239D4791004C1C24 /* leduc.nolimit.sample_test.2p.game */,
+				5C4A2661239D4791004C1C24 /* kuhn.nolimit.sampling_test.2p.game */,
+				5C4A2662239D4791004C1C24 /* holdem.limit.2p.reverse_blinds.one_raise.game */,
+				5C4A2663239D4791004C1C24 /* holdem.nolimit.3p.game */,
+				5C4A2664239D4791004C1C24 /* kuhn.nolimit.2p.game */,
+				5C4A2665239D4791004C1C24 /* holdem.limit.3p.game */,
+				5C4A2666239D4791004C1C24 /* leduc.nolimit.big.2p.game */,
+				5C4A2667239D4791004C1C24 /* holdem.limit.2p.reverse_blinds.game */,
+				5C4A2668239D4791004C1C24 /* holdem.nolimit.2p.reverse_blinds.game */,
+				5C4A2669239D4791004C1C24 /* leduc.nolimit.2p.game */,
+			);
+			path = games;
+			sourceTree = "<group>";
+		};
+		5C4A266B239D4791004C1C24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A26F2239D4E0F004C1C24 /* evalHandTables */,
+				5C4A266C239D4791004C1C24 /* game.c */,
+				5C4A266D239D4791004C1C24 /* action_abstraction.cpp */,
+				5C4A266E239D4791004C1C24 /* hand_index.c */,
+				5C4A266F239D4791004C1C24 /* cluster-abs-main.cpp */,
+				5C4A2670239D4791004C1C24 /* cfrm.cpp */,
+				5C4A2671239D4791004C1C24 /* player-main.cpp */,
+				5C4A2672239D4791004C1C24 /* deck.c */,
+				5C4A2673239D4791004C1C24 /* cfrm-main.cpp */,
+				5C4A2674239D4791004C1C24 /* abstract_game.cpp */,
+				5C4A2675239D4791004C1C24 /* net.c */,
+				5C4A2676239D4791004C1C24 /* abstraction_generator.cpp */,
+				5C4A2677239D4791004C1C24 /* functions.cpp */,
+				5C4A2678239D4791004C1C24 /* potential-abs-main.cpp */,
+				5C4A2679239D4791004C1C24 /* rng.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5C4A267A239D4791004C1C24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A267B239D4791004C1C24 /* deck.h */,
+				5C4A267C239D4791004C1C24 /* functions.hpp */,
+				5C4A267D239D4791004C1C24 /* action_translation.hpp */,
+				5C4A267E239D4791004C1C24 /* net.h */,
+				5C4A267F239D4791004C1C24 /* hand_index-impl.h */,
+				5C4A2680239D4791004C1C24 /* evalHandTables */,
+				5C4A2681239D4791004C1C24 /* emd_hat.hpp */,
+				5C4A2682239D4791004C1C24 /* kmeans.hpp */,
+				5C4A2683239D4791004C1C24 /* rng.h */,
+				5C4A2684239D4791004C1C24 /* abstract_game.hpp */,
+				5C4A2685239D4791004C1C24 /* abstraction_generator.hpp */,
+				5C4A2686239D4791004C1C24 /* ehs_lookup.hpp */,
+				5C4A2687239D4791004C1C24 /* card_abstraction.hpp */,
+				5C4A2688239D4791004C1C24 /* game.h */,
+				5C4A2689239D4791004C1C24 /* entry.hpp */,
+				5C4A268A239D4791004C1C24 /* flow_utils.hpp */,
+				5C4A268B239D4791004C1C24 /* cfrm.hpp */,
+				5C4A268C239D4791004C1C24 /* hand_index.h */,
+				5C4A268D239D4791004C1C24 /* EMD_DEFS.hpp */,
+				5C4A268E239D4791004C1C24 /* main_functions.hpp */,
+				5C4A268F239D4791004C1C24 /* emd_hat_impl.hpp */,
+				5C4A2690239D4791004C1C24 /* action_abstraction.hpp */,
+				5C4A2691239D4791004C1C24 /* nodes.hpp */,
+				5C4A2692239D4791004C1C24 /* definitions.hpp */,
+				5C4A2693239D4791004C1C24 /* min_cost_flow.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5C4A2694239D4791004C1C24 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A2695239D4791004C1C24 /* makefile */,
+				5C4A2696239D4791004C1C24 /* main.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5C4A2697239D4791004C1C24 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A2698239D4791004C1C24 /* gen_nolimit_holdem_agent */,
+				5C4A2699239D4791004C1C24 /* gen_kuhn_strategy */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C4A2598239D471D004C1C24 /* player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4A25A0239D471D004C1C24 /* Build configuration list for PBXNativeTarget "player" */;
+			buildPhases = (
+				5C4A2595239D471D004C1C24 /* Sources */,
+				5C4A2596239D471D004C1C24 /* Frameworks */,
+				5C4A2597239D471D004C1C24 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = player;
+			productName = "poker-cfrm";
+			productReference = 5C4A2599239D471D004C1C24 /* player */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C4A2591239D471D004C1C24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = strikles;
+				TargetAttributes = {
+					5C4A2598239D471D004C1C24 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C4A2594239D471D004C1C24 /* Build configuration list for PBXProject "poker-cfrm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C4A2590239D471D004C1C24;
+			productRefGroup = 5C4A259A239D471D004C1C24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C4A2598239D471D004C1C24 /* player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4A2595239D471D004C1C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4A26E2239D4792004C1C24 /* game.c in Sources */,
+				5C4A26ED239D4792004C1C24 /* functions.cpp in Sources */,
+				5C4A26CB239D4792004C1C24 /* TestUnitTest++.cpp in Sources */,
+				5C4A26BE239D4792004C1C24 /* TimeHelpers.cpp in Sources */,
+				5C4A26EF239D4792004C1C24 /* rng.c in Sources */,
+				5C4A26CE239D4792004C1C24 /* TestTestResults.cpp in Sources */,
+				5C4A26D6239D4792004C1C24 /* TestList.cpp in Sources */,
+				5C4A26CA239D4792004C1C24 /* TestCheckMacros.cpp in Sources */,
+				5C4A26D0239D4792004C1C24 /* TestXmlTestReporter.cpp in Sources */,
+				5C4A26DF239D4792004C1C24 /* MemoryOutStream.cpp in Sources */,
+				5C4A26C2239D4792004C1C24 /* Test.cpp in Sources */,
+				5C4A26E1239D4792004C1C24 /* TestReporterStdout.cpp in Sources */,
+				5C4A26E8239D4792004C1C24 /* deck.c in Sources */,
+				5C4A26E0239D4792004C1C24 /* AssertException.cpp in Sources */,
+				5C4A26CF239D4792004C1C24 /* TestTest.cpp in Sources */,
+				5C4A26C4239D4792004C1C24 /* TestTestSuite.cpp in Sources */,
+				5C4A26DD239D4792004C1C24 /* TestResults.cpp in Sources */,
+				5C4A26D8239D4792004C1C24 /* DeferredTestResult.cpp in Sources */,
+				5C4A26BC239D4792004C1C24 /* ecalc.cpp in Sources */,
+				5C4A26F3239D5EE6004C1C24 /* action_abstraction.cpp in Sources */,
+				5C4A26D4239D4792004C1C24 /* TestCurrentTest.cpp in Sources */,
+				5C4A26EB239D4792004C1C24 /* net.c in Sources */,
+				5C4A26D9239D4792004C1C24 /* CurrentTest.cpp in Sources */,
+				5C4A26E7239D4792004C1C24 /* player-main.cpp in Sources */,
+				5C4A26EA239D4792004C1C24 /* abstract_game.cpp in Sources */,
+				5C4A26E4239D4792004C1C24 /* hand_index.c in Sources */,
+				5C4A26BB239D4792004C1C24 /* xorshift_generator.cpp in Sources */,
+				5C4A26DC239D4792004C1C24 /* TimeConstraint.cpp in Sources */,
+				5C4A26C9239D4792004C1C24 /* TestTestMacros.cpp in Sources */,
+				5C4A26C6239D4792004C1C24 /* TestAssertHandler.cpp in Sources */,
+				5C4A26C8239D4792004C1C24 /* TestChecks.cpp in Sources */,
+				5C4A26C3239D4792004C1C24 /* TestRunner.cpp in Sources */,
+				5C4A26C0239D4792004C1C24 /* Checks.cpp in Sources */,
+				5C4A26D5239D4792004C1C24 /* XmlTestReporter.cpp in Sources */,
+				5C4A26D1239D4792004C1C24 /* TestTimeConstraintMacro.cpp in Sources */,
+				5C4A26D3239D4792004C1C24 /* TestTestRunner.cpp in Sources */,
+				5C4A26C7239D4792004C1C24 /* TestTimeConstraint.cpp in Sources */,
+				5C4A26C1239D4792004C1C24 /* TestReporter.cpp in Sources */,
+				5C4A26C5239D4792004C1C24 /* TestTestList.cpp in Sources */,
+				5C4A26AE239D4792004C1C24 /* action_sequence.cpp in Sources */,
+				5C4A26EC239D4792004C1C24 /* abstraction_generator.cpp in Sources */,
+				5C4A26DB239D4792004C1C24 /* ReportAssert.cpp in Sources */,
+				5C4A26CC239D4792004C1C24 /* TestDeferredTestReporter.cpp in Sources */,
+				5C4A26CD239D4792004C1C24 /* TestMemoryOutStream.cpp in Sources */,
+				5C4A26BF239D4792004C1C24 /* SignalTranslator.cpp in Sources */,
+				5C4A26DA239D4792004C1C24 /* TestDetails.cpp in Sources */,
+				5C4A26E6239D4792004C1C24 /* cfrm.cpp in Sources */,
+				5C4A26D7239D4792004C1C24 /* DeferredTestReporter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C4A259E239D471D004C1C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C4A259F239D471D004C1C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C4A25A1239D471D004C1C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"lib/UnitTest++",
+					lib/libecalc/include,
+					lib/libpoker/include,
+					/usr/local/Cellar/boost/1.71.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib/libpoker/lib/release",
+					"$(PROJECT_DIR)/lib/libecalc/lib/release",
+					/usr/local/Cellar/boost/1.71.0/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-L",
+					lib/libpoker/lib/release,
+					"-lpoker",
+					"-L",
+					lib/libecalc/lib/release,
+					"-lecalc",
+					"-lboost_program_options",
+					"-lpthread",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		5C4A25A2239D471D004C1C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"lib/UnitTest++",
+					lib/libecalc/include,
+					lib/libpoker/include,
+					/usr/local/Cellar/boost/1.71.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib/libpoker/lib/release",
+					"$(PROJECT_DIR)/lib/libecalc/lib/release",
+					/usr/local/Cellar/boost/1.71.0/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-L",
+					lib/libpoker/lib/release,
+					"-lpoker",
+					"-L",
+					lib/libecalc/lib/release,
+					"-lecalc",
+					"-lboost_program_options",
+					"-lpthread",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C4A2594239D471D004C1C24 /* Build configuration list for PBXProject "poker-cfrm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4A259E239D471D004C1C24 /* Debug */,
+				5C4A259F239D471D004C1C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4A25A0239D471D004C1C24 /* Build configuration list for PBXNativeTarget "player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4A25A1239D471D004C1C24 /* Debug */,
+				5C4A25A2239D471D004C1C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C4A2591239D471D004C1C24 /* Project object */;
+}
