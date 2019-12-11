@@ -5,8 +5,8 @@
 *.swp
 *.o
 *.d
-*.log
 *.dat
+*.log
 *.plot
 test.abs
 strategies/*
@@ -16,5 +16,9 @@ cfrm
 cluster-abs
 potential-abs
 player
+gen_eval_table
 lib/libpoker/lib/*
+lib/libecalc/lib/*
 lib/libpoker/obj/*
+lib/libecalc/obj/*
+.DS_Store

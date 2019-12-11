@@ -957,19 +957,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
 					"lib/UnitTest++",
 					lib/libecalc/include,
 					lib/libpoker/include,
-					/usr/local/Cellar/boost/1.71.0/include,
+					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib/libpoker/lib/release",
 					"$(PROJECT_DIR)/lib/libecalc/lib/release",
-					/usr/local/Cellar/boost/1.71.0/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -991,19 +991,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
 					"lib/UnitTest++",
 					lib/libecalc/include,
 					lib/libpoker/include,
-					/usr/local/Cellar/boost/1.71.0/include,
+					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib/libpoker/lib/release",
 					"$(PROJECT_DIR)/lib/libecalc/lib/release",
-					/usr/local/Cellar/boost/1.71.0/lib,
+					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
